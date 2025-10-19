@@ -1,0 +1,85 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="author" content="Minerva">
+        <meta name="description" content="Glacier Haven Resort">
+
+        <title>Glacier Haven | Contact</title>
+
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1><a href="index.html"> Glacier Haven</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="contact.html" aria-current="page" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <img src="images/swiss-valley.jpg"
+            alt="View of the Swiss Alps valley with green hills and snowy peaks"
+            width="1200" height="400">
+        </section>
+
+        <main>
+            <section class="contact-section">
+            <div class="contact-left">
+            <h2>Contact Us</h2>
+            <p>
+                Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+                <strong>Required fields marked with a *</strong> 
+            </p>
+            <img src="images/swiss-peak.jpg"
+            alt="Snow covered Swiss mountain peak under a clear blue sky"
+            width="200" height="200">
+            </div>
+
+            <div class="contact-right">
+                <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+                <label for="full-name">Full Name*:</label>
+                <input type="text" id="full-name" name="full-name" required>
+
+                <label for="email">Email Address*:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number*:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <fieldset>
+                    <legend>Preferred Contact Method*:</legend>
+                    <label><input type="radio" name="contact-method" value="email" required>Email</label>
+                    <label><input type="radio" name="contact-method" value="phone"> Phone</label>
+                </fieldset>
+
+               <label for="comments">Comments*:</label>
+               <textarea id="comments" name="comments" rows="5" required></textarea>
+
+               <button type="submit">Submit</button>
+            </form>
+            </div>
+        </section>
+        </main>
+
+        <footer>
+            <p>Copyright ©2023 - Glacier Haven</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
+    </html>
